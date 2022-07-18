@@ -40,7 +40,6 @@
     font-size: .85rem;
 }
 
-
 .top-header>h3{
     position: relative;
     left: 45%;
@@ -61,10 +60,45 @@
     opacity: .95;
 }
 .rightText{
-    padding: 4rem;
+    padding: 4rem 4rem 3rem;
     text-align: left;
 }
 .rightText>p{
     font-weight: 500;
     font-size: .85rem;
+}
+
+
+@media (max-width:991px){
+    .rightText{
+       padding: 4rem 2rem 3rem;
+    }
+    .topimg{
+        left: 25%;
+    }
+}
+
+@media (max-width:760px){
+    .topLeft,.topright{
+        flex: 0 0 50%; 
+    }
+    .topLeft{
+        align-items: flex-start;
+    }
+    .topLeft>p{
+        right: 0%;
+        left: 5%;
+    }
+    .top-header>h3{
+        font-size: 2rem;
+        left: 5%;
+    }
+    .topimg{
+        left: 5%;
+    }
+}
+@media (max-width:500px){
+    .topimg{
+        left: 1%;
+    }
 }

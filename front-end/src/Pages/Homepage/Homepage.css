@@ -13,8 +13,13 @@
 }
 .bgImg3{
     position: absolute;
-    left: 25%;
+    left: 30%;
     z-index: 1;
     width: 6rem;
     opacity: .7;
 }
+@media (max-width:991px){
+    .bgImg3{   
+        left: 20%
+     }
+    }

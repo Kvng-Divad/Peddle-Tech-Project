@@ -20,10 +20,10 @@ const NavBar = () =>{
     <Navbar bg="transparent" expand="lg" className='text-light '>
       <Container fluid>
         <Navbar.Brand href="/comingsoon" className='text-light text-uppercase ms-5'>Logo</Navbar.Brand>
-        <Navbar.Toggle className='text-light' aria-controls="navbarScroll" />
+        <Navbar.Toggle  bg="light" className='toggle' aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" >
           <Nav
-            className="ms-auto me-3 my-3 my-lg-0 "
+            className="ms-lg-auto ms-5 me-3 my-3 my-lg-0 "
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
@@ -32,6 +32,7 @@ const NavBar = () =>{
             <Nav.Link href='/blog'  className='text-light me-3 text-uppercase'> Blog</Nav.Link>
 
           </Nav>
+
           <>
             <Button variant="primary" onClick={toggleShow} className='btn me-5'>Contact Us</Button>
 
@@ -47,8 +48,10 @@ const NavBar = () =>{
                <Contactpage/>
               </Offcanvas.Body>
             </Offcanvas>
-          </>
+        </>
         </Navbar.Collapse>
+        
+        
       </Container>
     </Navbar>
   );

@@ -52,7 +52,26 @@
     letter-spacing: 2px; 
     border-bottom:2px solid gray ;
 }
-p{
+
+.gridLeft>div>p,
+.gridRight>div>p{
     font-size: .85rem;
     line-height: 1.75rem;
+}
+
+@media (max-width:991px){
+    .gridLeft, .gridRight{
+        padding: 4rem 3rem 2rem 5rem;
+    }
+}
+@media (max-width:760px){
+    .aboutCentergrid{
+        grid-template-columns: repeat(1, 1fr);   
+    }
+    .gridLeft{
+        padding: 4rem 5rem 2rem 7rem;
+    }
+    .gridRight{
+        padding: 4rem 3rem 2rem 5rem;
+    }
 }

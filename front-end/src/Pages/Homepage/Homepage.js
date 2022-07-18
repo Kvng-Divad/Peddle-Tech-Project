@@ -8,7 +8,7 @@ import './Homepage.css'
 
 const Homepage = () => {
   return (
-    <div className='container'>
+    <div className='container2'>
           <Homecontent/>
           <div className='footer-container'>
               <img src={BgImg3} className='bgImg3'  alt=''/>

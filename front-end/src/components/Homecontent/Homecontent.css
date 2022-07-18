@@ -26,3 +26,7 @@
     gap: 1rem;
     justify-content: center;
 }
+@media (max-width:760px){
+    .hero h1{
+        font-size: 2rem;}
+}

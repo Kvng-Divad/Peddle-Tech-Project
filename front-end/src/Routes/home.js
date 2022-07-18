@@ -5,7 +5,7 @@ import Homepage from '../Pages/Homepage/Homepage';
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container2'>
         <Background/>
         <div className='homeContainer'>
           <div className='content'>

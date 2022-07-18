@@ -24,3 +24,13 @@
     right: 10%;
  }
 
+
+ @media (max-width:991px){
+    .bgImg1 img{   
+        left: 4%
+     }
+     .bgImg2 img{
+        right: 4%;
+     }
+}
+
