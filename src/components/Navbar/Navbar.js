@@ -28,8 +28,8 @@ const NavBar = () =>{
             navbarScroll
           >
             
-            <Nav.Link href='/about' className='text-light me-3 text-uppercase'>About us</Nav.Link>
-            <Nav.Link href='/blog'  className='text-light me-3 text-uppercase'> Blog</Nav.Link>
+            <Nav.Link to='/about' className='text-light me-3 text-uppercase'>About us</Nav.Link>
+            <Nav.Link to='/blog'  className='text-light me-3 text-uppercase'> Blog</Nav.Link>
 
           </Nav>
 
