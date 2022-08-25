@@ -1,5 +1,6 @@
 import React ,{ useState } from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -28,8 +29,8 @@ const NavBar = () =>{
             navbarScroll
           >
             
-            <Nav.Link href='/about' className='text-light me-3 text-uppercase'>About us</Nav.Link>
-            <Nav.Link href='/blog'  className='text-light me-3 text-uppercase'> Blog</Nav.Link>
+            <Nav.Link  ><Link to='/about'className='text-light me-3 text-uppercase' >About us</Link></Nav.Link>
+            <Nav.Link  ><Link to='/blog' className='text-light me-3 text-uppercase' >Blog</Link> </Nav.Link>
 
           </Nav>
 
